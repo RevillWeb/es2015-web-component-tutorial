@@ -96,7 +96,6 @@
         proto.createdCallback = function() {
             var clone = document.importNode(template.content, true);
             this.createShadowRoot().appendChild(clone);
-            this.appendChild(clone);
 
             //Grab the elements from the shadow root
             this.$container = this.shadowRoot.querySelector('.container');
