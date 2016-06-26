@@ -105,7 +105,7 @@
             this.draw();
             //Call the draw function every section to update the time
             setInterval(() => {
-                that.draw();
+                this.draw();
             }, 1000);
         };
         // Fires when an instance was inserted into the document.
